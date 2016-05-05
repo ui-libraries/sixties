@@ -1,0 +1,1080 @@
+/*
+ Theme Name:   sixties
+ Description:  Responsive Child Theme
+ Author:       Ethan DeGross
+ Template:     responsive
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ Text Domain:  sixties
+*/
+p.slide-description, body.slide-description{
+  color:black;
+}
+#contributors{
+  font-size: 18px;
+  color: red;
+  font-family: "roboto slab", Georgia, Serif;
+  color:#f26626;
+}
+ html, #wrapper, #content-full, header.section, .section-inner p, .section-inner a, .section-inner .alignnone, #container, .skip-container{
+	 margin-top:0px!important;
+   margin-bottom: 0px;
+	 padding:0px!important;
+   overflow-x: hidden;
+ }
+.page-id-108 {
+  background-color:white;
+}
+.page-id-108 #content-full{
+  border:none;
+}
+.home #container, #container {
+	max-width: 100%;
+}
+.home #header {
+	margin: 0px;
+	max-width: 100%;
+}
+#uptight-and-laidback{
+	float:left;
+	width:55%;
+}
+.header.section {
+	background-image:url("https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/1960s_PEACE_Transparent.png");
+	background-size: cover;
+	height:1000px;
+}
+.page-id-2 .main-nav, .powered, .entry-title, .page-id-2 #header, #footer, .post-edit, .owl-controls{
+display:none;
+}
+.site-description, .site-name a{
+	color:#e7cc0b;
+	padding:1%;
+}
+#menu-main-nav{
+		color:#e7cc0b;
+}
+.header_menu{
+	width:99.5%;
+  font-family: "roboto slab", Georgia, Serif;
+  letter-spacing: 4px;
+	text-transform:uppercase;
+	font-size:25px;
+	color: #fbe03f;
+	margin:10px 0px 10px 0px;
+	text-align:center;
+	line-height:2em;
+  padding:10px 0px 10px 10px;
+}
+#menu_item_1{
+	background-color:#c7b52f;
+}
+#menu_item_2{
+	background-color:#85a03c;
+}
+#menu_item_3{
+	background-color:#438c48;
+}
+#menu_item_4{
+	background-color:#217d4c;
+}
+#menu_item_5{
+	background-color:#4d6b46;
+}
+#menu_item_6{
+	background-color:#ee372a;
+}
+#menu_item_7{
+	background-color:#f26626;
+}
+#sixties-content{
+	background-color:#FBE03F;
+}
+#opening-text{
+	padding:7% 7.5% 4.5% 7.5%;
+  font-family: Georgia, Serif;
+	font-size:25px;
+	line-height:125%;
+	background-color:white;
+}
+#opening-text .custom-heading{
+	background-color:#c7b52f;
+}
+#sixties-map, #showcase-video, #showcase-audio{
+	padding:7.5% 7.5% 0 7.5%;
+}
+#sixties-map .custom-heading{
+	background-color:#85a03c;
+  margin-bottom: 4%;
+}
+#showcase-video .custom-heading{
+	background-color:#438c48;
+  margin-bottom: 4%;
+}
+#showcase-audio .custom-heading{
+	background-color:#217d4c;
+  margin-bottom: 4%;
+}
+#showcase-photograph .custom-heading{
+	background-color:#4d6b46;
+  margin-bottom: 4%;
+  margin-top: 7.5%;
+  margin-left: 7.5%;
+  margin-right:auto;
+}
+.custom-heading{
+	width:auto;
+  font-family: "roboto slab", Georgia, Serif;
+  letter-spacing: 4px;
+	font-size:25px;
+	display:inline-block;
+	padding:2%;
+  margin-bottom: 1%;
+	color:#FBE03F;
+	text-transform:uppercase;
+}
+#showcase-audio-content{
+  font-family: "roboto slab", Georgia, Serif;
+}
+video {
+    width: auto;
+    max-width: 100%;
+    height: 300px;
+}
+#video1-text, #video2-text, #video3-text{
+  width:300px;
+}
+#audio-box-1, #audio-box-2, #audio-box-3, #audio-box-4{
+  width:300px;
+  float:center;
+  margin-left:3%;
+  margin-right:3%;
+  display:inline-block;
+}
+#showcase-photograph{
+  height: 800px;
+}
+#sixties-footer{
+background-image:url("https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/1960s_WebDesign_Footer.png");
+background-size: cover;
+height:1300px;
+padding-bottom: 150px;
+}
+#sixties-footer-inner{
+  width:75%;
+  position:relative;
+  top:15%;
+  left:10%;
+}
+#sixties-footer-inner1{
+  width:50%;
+  position:relative;
+  top:35%;
+  left:10%;
+}
+
+#sixties-footer-inner2{
+  color:#FBE03F;
+  font-family: Georgia, Serif;
+  letter-spacing: 2px;
+  line-height: 150%;
+  text-transform:uppercase;
+  font-size:25px;
+  padding: 2.5%;
+  background: black;
+  width: 600px;
+  border-radius: 25px;
+  position: relative;
+  top:40%;
+  left:10%;
+}
+#sixties-footer-logo{
+  position: relative;
+  top:50%;
+  left:10%;
+}
+#sixties-footer-logo1{
+  position: relative;
+  top:50%;
+  left:10%;
+}
+.owl-nav{
+ top: -250px;
+ position:relative;
+ height:50px;
+
+}
+.owl-prev{
+ width:10%;
+ float:left;
+}
+.owl-next{
+ width:10%;
+ float:right;
+}
+.header-sub{
+  background-color: black;
+  width:100%;
+  height:80px;
+}
+.slide-info{
+padding: 25px;
+}
+.slide-title{
+  font-family: "roboto slab", Georgia, Serif;
+  letter-spacing: 2px;
+  text-transform:uppercase;
+  font-size:18px;
+  text-align:center;
+  line-height:1.25em;
+  color: #EE372A;
+}
+h3.slide-title{
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 380px) {
+#showcase-video{
+  display:none;
+}
+.js .main-nav{
+  clear:none;
+  background:none;
+}
+.js .main-nav .menu {
+  border-color: white;
+  position: absolute;
+  right: 150px!important;
+  z-index: 1000;
+  width:auto;
+  top:0px;
+}
+
+.js .main-nav .menu li a {
+  text-align: center;
+}
+.js .main-nav a#responsive_menu_button {
+  position: absolute;;
+  display: block;
+  top: -120px;
+  bottom:0px;
+  right: 100px;
+  left:0px;
+  margin-top: 10px;
+  margin-left: -90px;
+  height: 100px;
+  width: 80px;
+  cursor: pointer;
+  background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 5px no-repeat;
+  background-size: 120px;
+  z-index: 100;
+}
+.js .main-nav a#responsive_menu_button.responsive-toggle-open {
+  background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 5px no-repeat;
+  background-size: 120px;
+}
+#logo{
+  background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-text.png') 0 5px no-repeat;
+  background-size: 240px;
+  width:240px;
+  height:120px;
+  margin-right: 0px!important;
+}
+
+#header{
+  background-color: black;
+  height:120px;
+}
+.menu{
+  display:none;
+}
+.main-nav{
+  float: right;
+  clear:none !important;
+}
+.main-nav #responsive_current_menu_item {
+  display: none !important;
+}
+.menu li{
+  float: none;
+  border-style: solid;
+  border-width: 0px 4px 0px 0px;
+}
+#opening-text{
+  font-size: 85%;
+}
+#opening-text .custom-heading{
+  font-size: 100%
+}
+
+.custom-heading{
+	font-size:100%;
+}
+
+  #showcase-audio{
+  height:1200px;
+  padding:3.5%;
+  }
+
+#showcase-photograph{
+    height:600px;
+}
+
+#audio-box-1, #audio-box-2, #audio-box-3, #audio-box-4{
+  margin:0px 0px;
+  width:auto;
+  height:auto;
+}
+
+#sixties-footer{
+  height:400px;
+}
+#sixties-footer-inner1{
+  top:100px;
+}
+    #sixties-footer-inner2{
+      width:250px;
+      font-size:10px;
+      top:100px;
+    }
+
+  #sixties-footer-logo, #sixties-footer-logo1{
+    top:150px;
+  }
+
+    .header_menu{
+    	width:80%;
+      margin-left: 5%;
+      margin-right: 5%;
+    	text-transform:uppercase;
+    	font-size:15px;
+    	color: #fbe03f;
+    	text-align:center;
+    	line-height:2em;
+    	padding:10px;
+      float:left;
+    }
+    .header.section{
+      height:1380px;
+    }
+    #uptight-and-laidback{
+      clear:right;
+    }
+    #menu_item_1{
+    	background-color:#c7b52f;
+    }
+
+    video {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+      }
+
+
+
+}
+@media only screen and (min-width: 381px) and (max-width: 480px){
+
+  #showcase-video{
+    display:none;
+  }
+
+
+  .js .main-nav{
+  clear:none;
+  background:none;
+}
+
+.js .main-nav .menu {
+  border-color: white;
+  position: absolute;
+  right: 150px!important;
+  z-index: 1000;
+  width:auto;
+  top:0px;
+}
+
+.js .main-nav .menu li a {
+  text-align: center;
+}
+
+  .js .main-nav a#responsive_menu_button {
+      position: absolute;;
+      display: block;
+      top: -120px;
+      bottom:0px;
+      right: 100px;
+      left:0px;
+      margin-top: 10px;
+      margin-left: -90px;
+      height: 100px;
+      width: 80px;
+      cursor: pointer;
+      background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 5px no-repeat;
+      background-size: 120px;
+      z-index: 100;
+  }
+  .js .main-nav a#responsive_menu_button.responsive-toggle-open {
+    background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 5px no-repeat;
+    background-size: 120px;
+}
+
+#logo{
+  background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-text.png') 0 5px no-repeat;
+  background-size: 240px;
+  width:240px;
+  height:120px;
+  margin-right: 0px!important;
+}
+
+#header{
+    background-color: black;
+    height:120px;
+}
+.menu{
+  display:none;
+}
+.main-nav{
+  float: right;
+  clear:none !important;
+}
+.main-nav #responsive_current_menu_item {
+  display: none !important;
+}
+
+.menu li{
+  float: none;
+  border-style: solid;
+  border-width: 0px 4px 0px 0px;
+
+}
+
+
+#opening-text{
+  font-size: 85%;
+}
+#opening-text .custom-heading{
+  font-size: 100%
+}
+
+.custom-heading{
+	font-size:100%;
+}
+
+  #showcase-audio{
+  height:1500px;
+  padding:3.5%;
+  }
+
+#showcase-photograph{
+    height:600px;
+}
+
+  #audio-box-1, #audio-box-2, #audio-box-3, #audio-box-4{
+    margin:0px 0px;
+    width:auto;
+    height:auto;
+  }
+
+  #sixties-footer{
+    height:400px;
+  }
+#sixties-footer-inner1{
+  top:100px;
+}
+  #sixties-footer-inner2{
+    width:250px;
+    font-size:10px;
+    top:100px;
+  }
+
+#sixties-footer-logo, #sixties-footer-logo1{
+  top:150px;
+}
+
+  .header_menu{
+  	width:80%;
+    margin-left: 5%;
+    margin-right: 5%;
+  	text-transform:uppercase;
+  	font-size:15px;
+  	color: #fbe03f;
+  	text-align:center;
+  	line-height:2em;
+  	padding:10px;
+    float:left;
+  }
+  .header.section{
+    height:1380px;
+  }
+  #uptight-and-laidback{
+    clear:right;
+  }
+  #menu_item_1{
+  	background-color:#c7b52f;
+  }
+
+  video {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 700px) {
+
+
+  .main-nav {
+    z-index: 1;
+    padding: 0;
+    width: auto !important;
+    right: 0;
+  }
+
+  .main-nav #responsive_current_menu_item {
+    display: none !important;
+  }
+
+  .js .main-nav{
+  clear:none;
+  background:none;
+}
+
+.js .main-nav .menu {
+  border-color: white;
+  position: absolute;
+  right: 150px!important;
+  z-index: 1000;
+  width:auto;
+  top:0px;
+}
+
+.js .main-nav .menu li a {
+  text-align: center;
+}
+
+  .js .main-nav a#responsive_menu_button {
+      position: relative;
+      display: block;
+      top: 0px;
+      float:right;
+      left:0px;
+      right: 0;
+      margin-top: 10px;
+      height: 130px;
+      width: 120px;
+      cursor: pointer;
+      background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 0px no-repeat;
+      background-size: 120px;
+      z-index: 1000;
+  }
+
+  .js .main-nav a#responsive_menu_button.responsive-toggle-open {
+    background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 5px no-repeat;
+    background-size: 120px;
+}
+
+.custom-heading{
+	font-size:15px;
+}
+
+#logo{
+  background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-text.png') 0 5px no-repeat;
+  background-size: 240px;
+  width:240px;
+  height:120px;
+  float:left;
+}
+
+#header{
+    background-color: black;
+    height:120px;
+
+}
+.menu{
+  display:none;
+}
+
+.main-nav{
+  float: right;
+  padding-right: 0px;
+  padding-left: 0px;
+  clear:right;
+}
+
+.menu li{
+  float: none;
+  border-style: solid;
+  border-width: 0px 4px 0px 0px;
+
+}
+
+  .header_menu{
+    width:80%;
+    float:left;
+  }
+  .header.section{
+    height:auto;
+    padding-bottom: 20px;
+  }
+
+  #sixties-footer{
+    height:400px;
+    margin-top: 20px;
+  }
+  #sixties-footer-inner1{
+    top:100px;
+  }
+  #sixties-footer-inner2{
+    width:250px;
+    font-size:10px;
+    top:100px;
+  }
+
+  #sixties-footer-logo, #sixties-footer-logo1{
+    top:150px;
+  }
+
+  #showcase-audio{
+    height:1100px;
+  }
+  #showcase-photograph{
+    height:600px;
+  }
+
+  video {
+      width: 450px;
+      max-width: 100%;
+      height: auto;
+    }
+}
+
+@media only screen and (min-width: 701px)
+and (max-width: 819px) {
+  #showcase-audio{
+    height:1100px;
+  }
+
+
+  .js .main-nav{
+    clear:none;
+    background:none;
+  }
+
+  .js .main-nav .menu {
+    border-color: white;
+    position: absolute;
+    right: 150px!important;
+    z-index: 1000;
+    width:auto;
+    top:0px;
+  }
+
+  .js .main-nav .menu li a {
+    text-align: center;
+  }
+
+    .js .main-nav a#responsive_menu_button {
+        position: absolute;
+        display: block;
+        top: 30px;
+        right: 0px;
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 130px;
+        width: 120px;
+        cursor: pointer;
+        background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 5px no-repeat;
+        background-size: 120px;
+        z-index: 100;
+    }
+  #logo{
+    background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-text.png') 0 5px no-repeat;
+    background-size: 240px;
+    width:240px;
+    height:120px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .site-name, .site-description{
+    display:none;
+  }
+
+  #header{
+      background-color: black;
+      height:120px;
+  }
+  .menu{
+    display:none;
+  }
+
+  .main-nav{
+    float: right;
+    padding-right: 45px;
+    padding-left: 45px;
+    clear:none;
+  }
+
+  .menu li{
+    float: none;
+    border-style: solid;
+    border-width: 0px 4px 0px 0px;
+
+  }
+}
+
+
+
+@media only screen and (min-width: 820px)
+and (max-width: 980px) {
+
+  .js .main-nav{
+  clear:none;
+  background:none;
+}
+
+.js .main-nav .menu {
+  border-color: white;
+  position: absolute;
+  right: 150px!important;
+  z-index: 1000;
+  width:auto;
+  top:0px;
+}
+
+.js .main-nav .menu li a {
+  text-align: center;
+}
+
+  .js .main-nav a#responsive_menu_button {
+      position: absolute;
+      display: block;
+      top: 30px;
+      right: 0px;
+      margin-top: 10px;
+      margin-right: 10px;
+      height: 130px;
+      width: 120px;
+      cursor: pointer;
+      background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 0px no-repeat;
+      background-size: 120px;
+      z-index: 100;
+  }
+#logo{
+  background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-text.png') 0 5px no-repeat;
+  background-size: 240px;
+  width:240px;
+  height:120px;
+}
+
+.site-name, .site-description{
+  display:none;
+}
+
+#header{
+    background-color: black;
+    height:120px;
+}
+.menu{
+  display:none;
+}
+
+.main-nav{
+  float: right;
+  padding-right: 45px;
+  padding-left: 45px;
+  clear:none;
+}
+
+.menu li{
+  float: none;
+  border-style: solid;
+  border-width: 0px 4px 0px 0px;
+
+}
+
+  .header_menu{
+    width:80%;
+    float:left;
+  }
+
+  .header.section{
+    height:1400px;
+  }
+
+  #showcase-audio{
+    height:750px;
+  }
+
+  video {
+      width: 450px;
+      max-width: 100%;
+      height: auto;
+    }
+}
+
+@media only screen and (min-width: 981px)
+and (max-width: 1349px) {
+  #showcase-audio{
+    height:750px;
+  }
+
+
+  .js .main-nav{
+    clear:none;
+    background:none;
+  }
+
+  .js .main-nav .menu {
+    border-color: white;
+    position: absolute;
+    right: 150px!important;
+    z-index: 1000;
+    width:auto;
+    top:0px;
+  }
+
+  .js .main-nav .menu li a {
+    text-align: center;
+  }
+
+    .js .main-nav a#responsive_menu_button {
+        position: absolute;
+        display: block;
+        top: 30px;
+        right: 0px;
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 130px;
+        width: 120px;
+        cursor: pointer;
+        background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 5px no-repeat;
+        background-size: 120px;
+        z-index: 100;
+    }
+  #logo{
+    background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-text.png') 0 5px no-repeat;
+    background-size: 240px;
+    width:240px;
+    height:120px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .site-name, .site-description{
+    display:none;
+  }
+
+  #header{
+      background-color: black;
+      height:120px;
+  }
+  .menu{
+    display:none;
+  }
+
+  .main-nav{
+    float: right;
+    padding-right: 45px;
+    padding-left: 45px;
+    clear:none;
+  }
+
+  .menu li{
+    float: none;
+    border-style: solid;
+    border-width: 0px 4px 0px 0px;
+
+  }
+
+}
+
+
+
+@media only screen and (min-width: 1350px)
+and (max-width: 2399px) {
+
+.js .main-nav{
+  clear:none;
+  background:none;
+}
+
+.js .main-nav .menu {
+  border-color: white;
+  position: absolute;
+  right: 150px!important;
+  z-index: 1000;
+  width:auto;
+  top:0px;
+}
+
+.js .main-nav .menu li a {
+  text-align: center;
+}
+
+  .js .main-nav a#responsive_menu_button {
+      position: absolute;
+      display: block;
+      top: 30px;
+      right: 0px;
+      margin-top: 10px;
+      margin-right: 10px;
+      height: 130px;
+      width: 120px;
+      cursor: pointer;
+      background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 5px no-repeat;
+      background-size: 120px;
+      z-index: 100;
+  }
+#logo{
+  background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-text.png') 0 5px no-repeat;
+  background-size: 240px;
+  width:240px;
+  height:120px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.site-name, .site-description{
+  display:none;
+}
+
+#header{
+    background-color: black;
+    height:120px;
+}
+.menu{
+  display:none;
+}
+
+.main-nav{
+  float: right;
+  padding-right: 45px;
+  padding-left: 45px;
+  clear:none;
+}
+
+.menu li{
+  float: none;
+  border-style: solid;
+  border-width: 0px 4px 0px 0px;
+
+}
+
+  #showcase-audio{
+    height:500px;
+  }
+}
+
+
+
+@media only screen and (min-width: 2400px)
+and (max-width: 5000px) {
+
+
+  video {
+      width: auto;
+      max-width: 100%;
+      height: 450px;
+    }
+
+    #audio-box-1, #audio-box-2, #audio-box-3, #audio-box-4{
+      margin:0px 0px;
+      width:600px;
+      height:auto;
+    }
+    .js .main-nav{
+      clear:none;
+      background:none;
+    }
+
+    .js .main-nav .menu {
+      border-color: white;
+      position: absolute;
+      right: 150px!important;
+      z-index: 1000;
+      width:auto;
+      top:0px;
+    }
+
+    .js .main-nav .menu li a {
+      text-align: center;
+    }
+
+      .js .main-nav a#responsive_menu_button {
+          position: absolute;
+          display: block;
+          top: 30px;
+          right: 0px;
+          margin-top: 10px;
+          margin-right: 10px;
+          height: 130px;
+          width: 120px;
+          cursor: pointer;
+          background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-hamburger.png') 0 5px no-repeat;
+          background-size: 120px;
+          z-index: 100;
+      }
+    #logo{
+      background: url('https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/mini-menu-text.png') 0 5px no-repeat;
+      background-size: 240px;
+      width:240px;
+      height:120px;
+      margin-left: 15px;
+      margin-top: 5px;
+    }
+
+    .site-name, .site-description{
+      display:none;
+    }
+
+    #header{
+        background-color: black;
+        height:120px;
+    }
+    .menu{
+      display:none;
+    }
+
+    .main-nav{
+      float: right;
+      padding-right: 45px;
+      padding-left: 45px;
+      clear:none;
+    }
+
+    .menu li{
+      float: none;
+      border-style: solid;
+      border-width: 0px 4px 0px 0px;
+
+    }
+  }
+
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+.slider-item{
+  padding: 0px;
+}
+audio {
+  width:100%;
+}
+}
+
+#showcase-video, #showcase-audio{
+  display:none\9;
+}
