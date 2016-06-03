@@ -21,6 +21,12 @@ Template Name:  sixties-protest (no sidebar)
  */
 
 get_header(); ?>
+
+<head>
+<title>Politics & Protest</title>
+<meta name="description" content="Did you join a group or political movement? Did you march? Write a letter to the editor? Check out sample FBI files from the University Archives, rally posters, bumper stickers, and more. As Carol Hanisch wrote in her 1969 essay, "The personal is political.""/>
+<meta name="keywords" content="Politics in Iowa, Protests in Iowa, Images of the Sixties, Video of the Sixties, Politics and Protests, Iowa, 1960s, 1960's, 60's alumni, University of Iowa"/>
+</head>
 	<div id="sixties-content">
 		<div id="opening-text">
 			<div class="custom-heading">

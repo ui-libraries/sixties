@@ -21,6 +21,11 @@ Template Name:  sixties-student-life (no sidebar)
  */
 
 get_header(); ?>
+<head>
+<title>Student Life</title>
+<meta name="description" content="Hair styles and fashions, visitation hours in dorms, rules of conduct, and more: Campus life changed dramatically in just one decade. Your mid-term exam essay question: Compare and contrast various aspects of student life between 1960 and 1970."/>
+<meta name="keywords" content="Student Life in Iowa, Images of the Sixties, Video of the Sixties, Student Life, Iowa, 1960s, 1960's, 60's alumni, University of Iowa"/>
+</head>
 	<div id="sixties-content">
 		<div id="opening-text">
 			<div class="custom-heading">

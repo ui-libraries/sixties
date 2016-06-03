@@ -45,6 +45,8 @@ if ( !defined( 'ABSPATH' ) ) {
 		<link rel="stylesheet" href="/wp-content/scripts/owl-carousel-2/assets/owl.carousel.css">
 		<script type='text/javascript' src='/wp-content/scripts/owl-carousel-2/owl.carousel.min.js'></script>
 		<script type='text/javascript' src='/wp-content/scripts/custom/owl.carousel.2.js'></script>
+		<script type='text/javascript' src='/ethan_sixties/wp-content/scripts/custom/main.js'></script>
+
 
 
 		<?php wp_head(); ?>
