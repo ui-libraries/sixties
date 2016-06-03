@@ -21,6 +21,11 @@ Template Name:  sixties-civil-rights (no sidebar)
  */
 
 get_header(); ?>
+<head>
+<title>Civil Rights</title>
+<meta name="description" content="The Rev. Martin Luther King, Jr.’s, first visit to Iowa in 1959. Establishment of the Committee on Human Rights in 1963. Students who volunteered in Freedom Summer in Mississippi in 1964. A spring practice boycott by Black football players in 1969. These events – and more – are documented here."/>
+<meta name="keywords" content="Civil Rights in Iowa, Civil Rights in the 60s, Images of the Sixties, Video of the Sixties, Civil Rights, Iowa, 1960s, 1960's, 60's alumni, University of Iowa"/>
+</head>
 	<div id="sixties-content">
 		<div id="opening-text">
 			<div class="custom-heading">

@@ -21,7 +21,12 @@ Template Name:  sixties-home (no sidebar)
  */
 
 get_header(); ?>
-
+<head>
+<title>The Sixties | Uptight & Laid Back, Iowa City in the 1960s</title>
+<meta name="description" content="Welcome to Iowa City in the sixties.  Were you enrolled at the University of Iowa during this decade?  Our site transports you to that time on several fronts: anti-war protest, military service, civil rights, the local arts scene, relaxing of students’ rules of conduct, and more. The exhibit highlights events with images, documents, sounds, and film footage."/>
+<meta name="keywords" content="University of Iowa, 1960's, 1960s, sixties, Iowa City, State University of Iowa, Alumni, University Library, Archives, Interactive Map, Anti-War Protests, vietnam, war protests, history, Iowa City History"/>
+<meta name="robots" content="index, follow"/>
+</head>
 <div id="content-full" class="grid col-940">
 	<div class="header section">
 
@@ -59,12 +64,19 @@ get_header(); ?>
 				<div id="menu_item_7" class="header_menu">
 				Military Service
 			</div></a>
+			<a href="https://dsps.lib.uiowa.edu/sixties/colophon/">
+				<div id="menu_item_8" class="header_menu">
+				Colophon
+			</div></a>
 				<a href="http://dsps.lib.uiowa.edu/sixtiesmap/">
 				<img class="alignnone size-full wp-image-13" src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/03/1960s_WebDesign_Map_Button-1.png" alt="A circular button with the text, Visit 1960's map of Iowa City, Iowa" style="margin-top:15px !important; margin-right:0px; margin-left:0px;"/>
 				</a>
 				<a href="https://dsps.lib.uiowa.edu/sixties/submission-page/">
 				<img class="alignnone size-full wp-image-13" src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/03/1960s_WebDesign_Gallery_Button-1.png" alt="A circular button with the text, see submitted gallery content here" style="margin-top:15px !important; margin-right:0px; margin-left:0px;"/>
 			</a>
+			<div id="arrow-bounce">
+			<img class="alignnone size-full wp-image-13"  width="50" src="http://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/05/blackArrowFinal.gif" alt="A circular button with the text, see submitted gallery content here" style="margin-top:15px !important; margin-right:0px; margin-left:0px;"/>
+		</div>
 			</div>
 		</div>
 			</div>
@@ -96,16 +108,15 @@ get_header(); ?>
 
 
 
-											<video width="320" height="240" preload="none" controls poster="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/1960s_WebDesign_Video03-1.png">
-												<source src="http://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/videoA.mov" type="video/mp4">
+											<video width="320" height="240" preload="none" controls poster="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/05/new_Video03.png">
 												<source src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/videoD.mp4" type="video/mp4">
 												Your browser does not support the video tag.
 											</video>
-											<video width="320" height="240" preload="none"controls poster="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/1960s_WebDesign_Video01-1.png">
+											<video width="320" height="240" preload="none"controls poster="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/05/new_Video01.png">
 												<source src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/videoE.mp4" type="video/mp4">
 												Your browser does not support the video tag.
 											</video>
-											<video width="320" height="240" preload="none" controls poster="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/1960s_WebDesign_Video02-1.png">
+											<video width="320" height="240" preload="none" controls poster="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/05/new_Video02.png">
 												<source src="https://dsps.lib.uiowa.edu/sixties/wp-content/uploads/sites/7/2016/04/videoF.mp4" type="video/mp4">
 												Your browser does not support the video tag.
 											</video>
